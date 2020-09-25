@@ -11,4 +11,4 @@ a1: timing.o
 	$(CC) $^ -o $@ $(LDLIBS)
 
 clean:
-	rm -f a1 *.o
+	rm -f a1 *.o *.out
